@@ -158,4 +158,4 @@ The model does a good job in ranking team probabilities according to the bookmak
 
 * Mohr, M., Nybo, L., Grantham, J., & Racinais, S. (2012). Physiological responses and physical performance during football in the heat. *PLoS ONE*, 7(6), e39202. https://doi.org/10.1371/journal.pone.0039202
 
-Branquinho, L., de França, E., Titton, A., Leite de Barros, L. F., Campos, P., Marques, F. O., Glória, I. P. dos S., Caperuto, E. C., Hirota, V. B., Teixeira, J. E., Forte, P., Monteiro, A. M., Ferraz, R., & Thomatieli-Santos, R. V. (2025). The aging curve: How age affects physical performance in elite football. Journal of Functional Morphology and Kinesiology, 10(4), 385. https://doi.org/10.3390/jfmk10040385
+* Branquinho, L., de França, E., Titton, A., Leite de Barros, L. F., Campos, P., Marques, F. O., Glória, I. P. dos S., Caperuto, E. C., Hirota, V. B., Teixeira, J. E., Forte, P., Monteiro, A. M., Ferraz, R., & Thomatieli-Santos, R. V. (2025). The aging curve: How age affects physical performance in elite football. Journal of Functional Morphology and Kinesiology, 10(4), 385. https://doi.org/10.3390/jfmk10040385
