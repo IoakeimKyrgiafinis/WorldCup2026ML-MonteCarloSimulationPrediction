@@ -171,7 +171,54 @@ Below are the aggregated title-winning probabilities derived from 10,000 Monte C
 | 41 | Algeria | 1 | 0.01% |
 | 42 | Panama | 1 | 0.01% |
 
+## Tournament Simulation Probabilities, Without Heat effects (Heat Alphas = 0.000)
 
+
+
+| Rank | Country | Sim Wins | Win Probability |
+| :---: | :--- | :---: | :---: |
+| 1 | France | 1971 | 19.71% |
+| 2 | Spain | 1582 | 15.82% |
+| 3 |England | 1452 | 14.52% |
+| 4 | Portugal | 960 | 9.60% |
+| 5 | Argentina | 822 | 8.22% |
+| 6 | Brazil | 803 | 8.03% |
+| 7 | Germany | 636 | 6.36% |
+| 8 | Netherlands | 499 | 4.99% |
+| 9 | Belgium | 261 | 2.61% |
+| 10 | Norway | 143 | 1.43% |
+| 11 | United States | 94 | 0.94% |
+| 12 | Colombia | 93 | 0.93% |
+| 13 | Japan | 81 | 0.81% |
+| 14 | Uruguay | 80 | 0.80% |
+| 15 | Mexico | 75 | 0.75% |
+| 16 | Switzerland | 62 | 0.62% |
+| 17 | Croatia | 60 | 0.60% |
+| 18 | Morocco | 58 | 0.58% |
+| 19 | Turkey | 54 | 0.54% |
+| 20 | Austria | 29 | 0.29% |
+| 21 | Senegal | 27 | 0.27% |
+| 22 | Ecuador | 24 | 0.24% |
+| 23 | Sweden | 22 | 0.22% |
+| 24 | Canada | 17 | 0.17% |
+| 25 | Paraguay | 16 | 0.16% |
+| 26 | Egypt | 16 | 0.16% |
+| 27 | Ivory Coast | 16 | 0.16% |
+| 28 | Ghana | 10 | 0.10% |
+| 29 | Czech Republic | 6 | 0.06% |
+| 30 | Bosnia and Herzegovina | 4 | 0.04% |
+| 31 | South Africa | 4 | 0.04% |
+| 32 | Cape Verde | 3 | 0.03% |
+| 33 | Saudi Arabia | 3 | 0.03% |
+| 34 | Iran | 3 | 0.03% |
+| 35 | South Korea | 2 | 0.02% |
+| 36 | Scotland | 2 | 0.02% |
+| 37 | Qatar | 2 | 0.02% |
+| 38 | Congo | 2 | 0.02% |
+| 39 | Iraq | 2 | 0.02% |
+| 40 | Jordan | 2 | 0.02% |
+| 41 | Algeria | 1 | 0.01% |
+| 42 | Panama | 1 | 0.01% |
 
 ## Backtest Results
 
