@@ -78,12 +78,11 @@ The draw probability uses the model's draw estimate as its odds anchor (since ou
 ---
 
 ## Expected Goals ($\lambda$)
-
 For every match, expected goals (λ) are computed for each team from their squad market value differential:
 
-$$\lambda_a = \max(0.5,\ 1.5 + \frac{\text{value\_diff}}{10^9})$$
+$$\lambda_a = \max\!\left(0.5,\ 1.5 + \frac{\text{value diff}}{10^9}\right)$$
 
-$$\lambda_b = \max(0.5,\ 1.5 - \frac{\text{value\_diff}}{10^9})$$
+$$\lambda_b = \max\!\left(0.5,\ 1.5 - \frac{\text{value diff}}{10^9}\right)$$
 
 The baseline of 1.5 represents an average international match goal rate. The value differential shifts this—a €500M squad advantage adds 0.5 expected goals. The floor of 0.5 ensures no team's expected goals collapse to an unrealistic level.
 
