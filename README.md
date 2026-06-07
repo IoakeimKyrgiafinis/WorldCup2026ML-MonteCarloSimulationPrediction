@@ -1,6 +1,6 @@
 # WorldCup2026ML-MonteCarloSimulationPrediction
 
-This project combines squad market valuations, historical match results, age factors, bookmaker odds, and environmental factors (heat stress, pressing intensity) to simulate the 2026 FIFA World Cup 10,000 times and estimate each team's probability of winning the tournament. The approach is inspired by Roll et al. (2019) and Zeileis et al. (2026). 
+This project combines squad market valuations, historical match results, age factors, bookmaker odds, and environmental factors (heat stress, pressing intensity) to simulate the 2026 FIFA World Cup 10,000 times and estimate each team's probability of winning the tournament. The approach is inspired by Groll et al. (2019) and Zeileis et al. (2026). 
 
 In short, a Random Forest Classifier is trained on an 80/20 train/test split. Train dataset features are extracted from publicly available Kaggle Datasets. The features extracted are the following: 
 
@@ -157,6 +157,10 @@ The model does a good job in ranking team probabilities according to the bookmak
 
 ## Reference List
 
-* Mohr, M., Nybo, L., Grantham, J., & Racinais, S. (2012). Physiological responses and physical performance during football in the heat. *PLoS ONE*, 7(6), e39202. https://doi.org/10.1371/journal.pone.0039202
-
 * Branquinho, L., de França, E., Titton, A., Leite de Barros, L. F., Campos, P., Marques, F. O., Glória, I. P. dos S., Caperuto, E. C., Hirota, V. B., Teixeira, J. E., Forte, P., Monteiro, A. M., Ferraz, R., & Thomatieli-Santos, R. V. (2025). The aging curve: How age affects physical performance in elite football. Journal of Functional Morphology and Kinesiology, 10(4), 385. https://doi.org/10.3390/jfmk10040385
+
+* Groll, A., Ley, C., Schauberger, G., & Van Eetvelde, H. (2019). A hybrid random forest to predict soccer matches in international tournaments. Journal of Quantitative Analysis in Sports, 15(4), 271–287. https://doi.org/10.1515/jqas-2018-0060
+
+* Mohr, M., Nybo, L., Grantham, J., & Racinais, S. (2012). Physiological responses and physical performance during football in the heat. PLOS ONE, 7(6), e39202. https://doi.org/10.1371/journal.pone.0039202
+
+* Zeileis, A., Groll, A., Hanekov, A., Hvattum, L. M., Michels, R., Schauberger, G., Sukhanova, E., & Witte, S. (2026, June 2). Football meets machine learning: Forecasting the 2026 FIFA World Cup. https://www.zeileis.org/news/fifa2026/
