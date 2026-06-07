@@ -12,6 +12,10 @@ In short, a Random Forest Classifier is trained on an 80/20 train/test split. Tr
 | `form_diff` | Recent win rate gap (last 5 games) |
 | `prime_diff` | Age-prime score gap |
 
+
+*We compute the prime age score of each player in the following way using Gaussian Peak curve ​$$
+\text{prime\_score}(age) = e^{-\dfrac{(age - 25.5)^2}{2 \times 3.5^2}}
+$$
 The Random Forest Classifier model is trained on these features on club matches from 2005 onwards, not international matches. This is done because there are far more club matches available than international matches, which happen infrequently. The assumption is that football outcomes are affected in the same way by the features for both clubs and national teams. 
 
 The target variable (`result`) takes three values: `1` (home win), `0` (draw), and `-1` (away win). Once trained, the model outputs three class probabilities for each result: $P(\text{home win})$, $P(\text{draw})$, and $P(\text{away win})$.
