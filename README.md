@@ -2,7 +2,8 @@
 
 This project combines squad market valuations, historical match results, age factors, bookmaker odds, and environmental factors (heat stress, pressing intensity) to simulate the 2026 FIFA World Cup 10,000 times and estimate each team's probability of winning the tournament. The approach is inspired by Groll et al. (2019) and Zeileis et al. (2026). 
 
-In short, a Random Forest Classifier is trained on an 80/20 train/test split. Train dataset features are extracted from publicly available Kaggle Datasets. The features extracted are the following: 
+In short, a Random Forest Classifier is trained on an 80/20 train/test split. Train dataset features are extracted from publicly available Kaggle Datasets (Jürisoo, 2023), (davidcariboo, Transfermarkt. (2024)).
+ The features extracted are the following: 
 
 | Feature | What It Measures |
 | :--- | :--- |
@@ -164,3 +165,9 @@ The model does a good job in ranking team probabilities according to the bookmak
 * Mohr, M., Nybo, L., Grantham, J., & Racinais, S. (2012). Physiological responses and physical performance during football in the heat. PLOS ONE, 7(6), e39202. https://doi.org/10.1371/journal.pone.0039202
 
 * Zeileis, A., Groll, A., Hanekov, A., Hvattum, L. M., Michels, R., Schauberger, G., Sukhanova, E., & Witte, S. (2026, June 2). Football meets machine learning: Forecasting the 2026 FIFA World Cup. https://www.zeileis.org/news/fifa2026/
+
+* Jürisoo, M. (2023). International football results from 1872 to 2023 [Dataset]. Kaggle. https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017
+
+* Transfermarkt. (2024). Football data: Players, clubs, games, valuations [Dataset]. Kaggle. https://www.kaggle.com/datasets/davidcariboo/player-scores
+
+* Wikipedia contributors. (2026). 2026 FIFA World Cup squads. Wikipedia. https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
