@@ -173,8 +173,6 @@ Below are the aggregated title-winning probabilities derived from 10,000 Monte C
 
 ## Tournament Simulation Probabilities, Without Heat effects (Heat Alphas = 0.000)
 
-
-
 | Rank | Country | Sim Wins | Win Probability |
 | :---: | :--- | :---: | :---: |
 | 1 | France | 1971 | 19.71% |
