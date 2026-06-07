@@ -14,9 +14,11 @@ In short, a Random Forest Classifier is trained on an 80/20 train/test split. Tr
 
 
 *We compute the prime age score of each player in the following way using Gaussian Peak curve ​
-$$
-\text{prime\_score}(age) = e^{-\dfrac{(age - 25.5)^2}{2 \times 3.5^2}}
-$$
+
+$$\text{prime score}(age) = e^{-\frac{(age - 25.5)^2}{2 \times 3.5^2}}$$
+
+where 25.5 is the peak age and 3.5 is the sigma (spread). (Branquinho et al., 2025)
+
 The Random Forest Classifier model is trained on these features on club matches from 2005 onwards, not international matches. This is done because there are far more club matches available than international matches, which happen infrequently. The assumption is that football outcomes are affected in the same way by the features for both clubs and national teams. 
 
 The target variable (`result`) takes three values: `1` (home win), `0` (draw), and `-1` (away win). Once trained, the model outputs three class probabilities for each result: $P(\text{home win})$, $P(\text{draw})$, and $P(\text{away win})$.
@@ -155,3 +157,5 @@ The model does a good job in ranking team probabilities according to the bookmak
 ## Reference List
 
 * Mohr, M., Nybo, L., Grantham, J., & Racinais, S. (2012). Physiological responses and physical performance during football in the heat. *PLoS ONE*, 7(6), e39202. https://doi.org/10.1371/journal.pone.0039202
+
+Branquinho, L., de França, E., Titton, A., Leite de Barros, L. F., Campos, P., Marques, F. O., Glória, I. P. dos S., Caperuto, E. C., Hirota, V. B., Teixeira, J. E., Forte, P., Monteiro, A. M., Ferraz, R., & Thomatieli-Santos, R. V. (2025). The aging curve: How age affects physical performance in elite football. Journal of Functional Morphology and Kinesiology, 10(4), 385. https://doi.org/10.3390/jfmk10040385
