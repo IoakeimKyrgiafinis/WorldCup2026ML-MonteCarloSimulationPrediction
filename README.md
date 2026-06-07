@@ -46,7 +46,7 @@ $$\frac{0.07 \text{ total performance deficit}}{22^\circ\text{C} \text{ temperat
 Accounting for modern acclimatization techniques, this scaling factor is smoothed down to a baseline of `0.002` per degree Celsius.
 
 ### 2. Tactical Pressing Penalty ($\alpha = 0.003$)
-Next, we account for the fact that the participating teams have different playstyles. We extract each team's pressing intensity from analyst reports and penalize the high-pressure teams, based on the argument that heat is going to affect them at a higher rate. In extreme heat, a high-pressing team faces a double penalty: their tactical style becomes harder to maintain. The pressing adjustment models this interaction.
+Next, we account for the fact that the participating teams have different playstyles. We extract each team's pressing intensity from analyst reports and penalize the high-pressure teams (Tor-Kristian Karlsen (2026)), based on the argument that heat is going to affect them at a higher rate. In extreme heat, a high-pressing team faces a double penalty: their tactical style becomes harder to maintain. The pressing adjustment models this interaction.
 
 Each team has a `pressing_intensity` score (`0` to `1`). The adjustment scales the pressing differential by heat severity (venue temperature divided by 40, normalized). 
 
@@ -171,3 +171,5 @@ The model does a good job in ranking team probabilities according to the bookmak
 * Transfermarkt. (2024). Football data: Players, clubs, games, valuations [Dataset]. Kaggle. https://www.kaggle.com/datasets/davidcariboo/player-scores
 
 * Wikipedia contributors. (2026). 2026 FIFA World Cup squads. Wikipedia. https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
+
+* ESPN Tor-Kristian Karlsen . (2026, June 4). 2026 World Cup confirmed teams: One thing to know, analysis, predictions. ESPN. https://www.espn.com/soccer/story/_/id/47136531/2026-world-cup-confirmed-teams-one-thing-know-analysis-predictions
